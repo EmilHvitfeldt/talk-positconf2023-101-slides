@@ -1,0 +1,27 @@
+---
+format: 
+  revealjs:
+    embed-resources: true
+---
+
+## Multiple columns
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Left column
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+
+::::
+
+## Output location
+
+```{r}
+#| echo: true
+#| output-location: column
+plot(mpg ~ disp, data = mtcars)
+```
