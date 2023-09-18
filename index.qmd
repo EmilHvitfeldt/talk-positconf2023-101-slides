@@ -57,14 +57,14 @@ Slides doesn't need an header title
 ::: {.column width="50%"}
 ::: {.codewindow .quarto}
 index.qmd
-{{< include embedded/_01-intro_embed.qmd >}}
+{{< include _01-intro_embed.qmd >}}
 :::
 :::
 :::
 
 ##
 
-<iframe class="slide-deck" style="height:800px; max-width: 100%;" src="embedded/_01-intro.html"></iframe>
+<iframe class="slide-deck" style="height:800px; max-width: 100%;" src="_01-intro.html"></iframe>
 
 ::: {.fragment .advance-slide}
 :::
@@ -96,14 +96,14 @@ using `.columns` and `.column` classes
 ::: {.column width="50%"}
 ::: {.codewindow .quarto}
 index.qmd
-{{< include embedded/_02-columns_embed.qmd >}}
+{{< include _02-columns_embed.qmd >}}
 :::
 :::
 :::
 
 ##
 
-<iframe class="slide-deck" style="height:800px; max-width: 100%;" src="embedded/_02-columns.html"></iframe>
+<iframe class="slide-deck" style="height:800px; max-width: 100%;" src="_02-columns.html"></iframe>
 
 ::: {.fragment .advance-slide}
 :::
